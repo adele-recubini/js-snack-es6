@@ -38,7 +38,7 @@ function randomNum(min,max) {
 
  // con un ciclo for vado a popolare punti e falli con la funzione numeri randomNum
  for (let i = 0; i < squadre.length; i++) {
-   var team = squadre[i]
+   let team = squadre[i]
    team.punti = randomNum(1,15)
    team.falli = randomNum(1,15)
  }
@@ -61,8 +61,8 @@ function randomNum(min,max) {
     });
 
  }
+  console.log('questo è l array che mi contiene solo le proprietà richieste', falliNome);
 
- console.log('questo è l array che mi contiene solo le proprietà richieste' + falliNome);
 
 
 
