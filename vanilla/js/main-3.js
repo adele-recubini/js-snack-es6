@@ -22,8 +22,10 @@ function array(arr,min,max) {
       nuovoArray.push(arr[i])
     }
   }
-  return array;
+  return nuovoArray;
 }
+
+
 console.log(array(numeriConArray,a,b));
 
 // function myArray() {
